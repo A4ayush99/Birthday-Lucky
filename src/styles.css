@@ -1,0 +1,44 @@
+body {
+  background-color: #bccee0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+label {
+  display: inline;
+  background: linear-gradient(45deg, #19adff, transparent);
+  font-size: 1.2rem;
+}
+
+input {
+  margin: 0.5rem;
+  height: 1.5rem;
+  font-size: inherit;
+  font-weight: 100;
+  border-radius: 7px;
+}
+
+#check-number {
+  display: block;
+  margin: 0.5rem;
+  height: 2rem;
+  font-size: inherit;
+  margin-left: 47%;
+  border-radius: 10px;
+  border: 2px solid cornflowerblue;
+  background: transparent;
+  color: #19adff;
+  cursor: pointer;
+}
+#check-number:hover {
+  color: #022c43;
+  border-radius: #022c43;
+}
+
+#output-box {
+  display: inline;
+  margin-left: 3%;
+  line-height: 2;
+  font-size: larger;
+  background: linear-gradient(45deg, #19adff, transparent);
+}
